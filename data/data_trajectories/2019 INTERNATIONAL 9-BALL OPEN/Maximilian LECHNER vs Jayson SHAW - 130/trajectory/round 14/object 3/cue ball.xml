@@ -1,0 +1,641 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>HOT MATCH FINALS_ Maximilian LECHNER vs. Jayson SHAW_ 2019 INTERNATIONAL 9-BALL OPEN</Title>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6864</WindowHeight>
+  <WindowWidth>19920</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="新細明體" x:CharSet="136" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m507872436">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="新細明體" x:CharSet="136" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#CC99FF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m507872456">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="新細明體" x:CharSet="136" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m507872476">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="新細明體" x:CharSet="136" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="新細明體" x:CharSet="136" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="新細明體" x:CharSet="136" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="HOT MATCH FINALS_ Maximilian LE">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="105" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m507872436"><Data ss:Type="String">Track</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Label :</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m507872456"><Data ss:Type="String">cue ball</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="m507872476"><Data ss:Type="String">Coords (x,y:cm; t:time)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">y</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">t</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">11.42</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">120.92</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:58.88</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">14.58</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">125.93</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:58.91</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">19.829999999999998</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">129.26</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:58.94</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">24.62</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">134.49</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:58.98</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">29.55</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">139.84</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.270000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">144.4</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.04</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">38.67</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">149.07</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.08</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">38.46</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">149.09</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.950000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">151.06</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.9</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">152.03</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.85</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">153.02000000000001</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.21</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.75</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">155.05000000000001</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.24</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.659999999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">157.07</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.28</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.619999999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">158.07</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.31</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.79</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">159.09</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.35</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.74</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">160.13</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.38</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.65</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">162.19</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.41</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.61</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">163.21</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.57</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">164.26</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.48</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.74</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">165.3</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.51</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.700000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">166.36</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.55</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.82</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">168.47</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.58</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.82</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">168.48</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.61</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.770000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">169.58</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.65</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.72</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">170.68</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.68</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.68</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">171.8</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.71</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.85</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">172.91</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.75</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.799999999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">174.03</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.78</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.71</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">176.23</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.81</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.93</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">176.23</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.85</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.869999999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">177.38</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.88</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.78</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">179.62</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.91</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.770000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">179.64</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.95</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.68</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">181.9</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:12:59.98</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.68</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">181.93</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.64</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">183.12</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.05</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.590000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">184.33</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.08</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.31</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">185.5</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.32</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">185.52</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.31</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">185.51</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.130000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">184.36</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.21</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">37.119999999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">184.36</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">36.94</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">183.21</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.28</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">36.93</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">183.19</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.31</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">36.75</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">182.05</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.35</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">36.53</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">182.03</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.38</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">36.58</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">180.88</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.41</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">36.619999999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">179.76</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">36.39</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">179.77</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.48</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">36.380000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">179.73</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.51</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">36.21</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">178.6</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.55</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">35.979999999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">178.58</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.58</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">36.03</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">177.45</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.61</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">35.81</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">177.44</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.65</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">35.869999999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">176.3</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.68</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">35.909999999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">175.19</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.71</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">35.68</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">175.19</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.75</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">35.46</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">175.17</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.78</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">35.51</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">174.06</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.81</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">35.5</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">174.04</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.85</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">35.33</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">172.95</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.88</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">35.32</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">172.94</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.91</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">35.159999999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">171.85</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.95</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">35.159999999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">171.83</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:00.98</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.94</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">171.82</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.99</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">170.73</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.05</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.979999999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">170.71</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.08</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.81</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">169.64</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.81</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">169.63</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.81</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">169.62</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.86</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">168.54</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.21</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.86</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">168.53</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.700000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">167.46</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.28</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.700000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">167.46</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.31</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.75</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">166.39</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.35</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.74</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">166.39</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.38</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.520000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">166.38</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.41</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.31</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">166.36</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.369999999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">165.28</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.48</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.369999999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">165.27</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.51</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.42</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">164.22</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.55</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.200000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">164.23</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.58</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.200000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">164.21</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.61</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.25</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">163.16</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.65</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.03</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">163.16999999999999</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.68</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.090000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">162.13</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.72</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.090000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">162.13</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.75</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.090000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">162.12</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.78</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">33.869999999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">162.13</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.82</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">33.86</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">162.11000000000001</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.85</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">33.71</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">161.07</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.88</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">33.76</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">160.04</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.92</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">33.76</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">160.05000000000001</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.95</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">33.700000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">161.08000000000001</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:01.98</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">33.71</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">161.05000000000001</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:02.02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">33.76</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">160.01</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:02.05</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">33.76</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">160.01</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:02.08</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">33.76</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">159.97999999999999</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:02.12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">33.81</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">158.94999999999999</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:02.15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">33.6</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">158.94999999999999</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:02.18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">33.6</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">158.94999999999999</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1:13:02.22</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
