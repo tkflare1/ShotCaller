@@ -34,8 +34,8 @@ pip install -r requirements.txt
 
 ## Data
 
-- **Roboflow "Billiard Pool" dataset** (746 images, COCO JSON format, blue felt) — download from [Roboflow Universe](https://universe.roboflow.com/billiard-ball-data-set/billiard-pool/dataset/5) and place in `data/`
-- **Billiards Sports Analytics** (ball trajectories + layouts from professional 9-ball tournaments) — download from [Google Drive](https://drive.google.com/drive/folders/1NBqonYLr_cParMMn4xSeE0KTJNhjeYuG?usp=sharing) and place `data_trajectories/` and `data_layouts/` in `data/`
+- **Roboflow "Billiard Pool" dataset** (746 images, COCO JSON format, blue felt) — included in repo under `data/Billiard Pool.v5i.coco/`. Also available from [Roboflow Universe](https://universe.roboflow.com/billiard-ball-data-set/billiard-pool/dataset/5).
+- **Billiards Sports Analytics** (ball trajectories + layouts from professional 9-ball tournaments) — download from [Google Drive](https://drive.google.com/drive/folders/1NBqonYLr_cParMMn4xSeE0KTJNhjeYuG?usp=sharing). `data_trajectories/` (22 MB) is included in the repo. `data_layouts/` (2 GB) is too large for Git — download it manually and place in `data/`.
 - **Self-collected footage** — phone recordings of pool table shots for ground-truth evaluation
 
 ## Tech Stack
