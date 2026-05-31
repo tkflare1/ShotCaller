@@ -16,12 +16,31 @@ ShotCaller detects a pool table's boundaries and ball positions from an image or
 
 ```
 final_project/
-├── src/              # Pipeline source code
-├── data/             # Datasets and footage
+├── src/
+│   ├── table_detection.py   # Stage 1: felt segmentation, quad, homography
+│   ├── ball_detection.py    # Stage 2: Hough circles + classification
+│   ├── trajectory.py        # Stage 3: rail bounces + collision (90-deg rule)
+│   ├── pipeline.py          # End-to-end: image -> overlays
+│   └── demo.py              # Batch runner over dataset images
+├── train.py          # COCO dataset loader / stats utility
+├── data/             # Datasets and footage (see Data below)
 ├── notebooks/        # Experimentation and visualization
-├── results/          # Output images and videos
+├── results/          # Output overlays
 ├── requirements.txt
 └── README.md
+```
+
+## Usage
+
+```bash
+# Single image (aim defaults to the nearest object ball)
+python src/pipeline.py "data/Billiard Pool.v5i.coco/train/<image>.jpg" --out results/out.png
+
+# Aim at an explicit angle (degrees) and allow up to 6 rail bounces
+python src/pipeline.py <image> --aim 25 --bounces 6
+
+# Batch demo over several dataset images
+python src/demo.py --n 6 --split train
 ```
 
 ## Setup
