@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 sample_annotated.jpg
 data/data_layouts/
+.DS_Store
