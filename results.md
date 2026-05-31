@@ -56,8 +56,13 @@ The system is three classical-CV stages wired together in `pipeline.py`.
 - Candidates dominated by felt-colored pixels are rejected; near-duplicate
   detections are merged.
 - Each ball is classified by sampling its inner disk: white (cue), black
-  (8-ball), or colored. Colored balls are split into solid vs. stripe by the
+  (8-ball), or colored. The cue test requires the disk to be dominantly
+  bright/unsaturated *and* low-saturation overall, so glossy stripes are not
+  mistaken for the cue. Colored balls are split into solid vs. stripe by the
   fraction of white rim, and named by median hue (felt-blue band excluded).
+- The pipeline selects the cue as the *whitest* cue-flagged ball (whitest
+  overall as a fallback), so a noisy classifier still starts the trajectory at
+  the correct ball.
 - Centers are reported in both rectified pixels and table centimeters.
 
 ### Stage 3 — Trajectory prediction & visualization (`trajectory.py`)
@@ -74,12 +79,16 @@ The system is three classical-CV stages wired together in `pipeline.py`.
 
 - Table detection is accurate on near-overhead angles and good on steep
   broadcast angles; it currently fails on a minority of frames whose felt color
-  or lighting falls outside the HSV ranges (≈4/6 tables found on a sample
-  batch). Demo overlays are in `results/`.
+  or lighting falls outside the HSV ranges (5/8 tables found on a sample test
+  batch, matching the 62% test-split rate). Demo overlays (`test_*`) are in
+  `results/`.
 - Ball detection reliably finds the cue ball and most object balls; known
   failure modes (typical of classical Hough) are false positives on specular
-  highlights and misses on balls fused with a cushion. These are the main
-  targets for the remaining tuning.
+  highlights and misses on balls fused with a cushion.
+- Cue identification is correct on most frames (e.g. `test_00`, `test_01`,
+  `test_07`), but under strong specular glare a colored ball with a blown-out
+  highlight can read whiter than a shadowed cue and be mislabeled (`test_02`).
+  This is a documented limitation of single-image color classification.
 - Trajectory geometry (rail reflections and the 90-degree collision rule) is
   verified on synthetic layouts (`results/trajectory_demo.png`,
   `results/trajectory_collision_demo.png`) and overlays correctly on real
@@ -151,3 +160,6 @@ outside the geometric model.
 - Labels are bounding boxes, whereas the detection stage uses Hough circles. The boxes are suitable for precision/recall evaluation and for deriving centers and radii, but are not a training target for the classical pipeline.
 - Detection thresholds are tuned for bright tournament felt; robustness across
   felt colors/lighting and suppressing highlight false-positives are open items.
+- Cue identification can fail under specular glare (a highlighted colored ball
+  reading whiter than a shadowed cue); a robust fix needs multi-view or temporal
+  cues rather than a single-image color test.

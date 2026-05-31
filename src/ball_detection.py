@@ -52,6 +52,7 @@ class Ball:
     y_cm: float
     kind: str           # "cue", "eight", "solid", "stripe"
     color: str          # human-readable color name ("white", "black", ...)
+    whiteness: float = 0.0  # fraction of bright/unsaturated pixels (cue-likeness)
 
     @property
     def is_cue(self) -> bool:
@@ -67,24 +68,32 @@ def _circle_mask(patch_shape, r_frac=0.6):
     return (yy - cy) ** 2 + (xx - cx) ** 2 <= rr * rr
 
 
-def _classify_patch(patch: np.ndarray) -> tuple[str, str]:
-    """Classify a square BGR ball patch -> (kind, color_name)."""
+def _classify_patch(patch: np.ndarray) -> tuple[str, str, float]:
+    """Classify a square BGR ball patch -> (kind, color_name, whiteness).
+
+    ``whiteness`` is the fraction of bright, unsaturated pixels in the inner
+    disk; the pipeline uses it to pick the single most cue-like ball.
+    """
     mask = _circle_mask(patch.shape)
     hsv = cv2.cvtColor(patch, cv2.COLOR_BGR2HSV)
     h = hsv[..., 0][mask].astype(np.float32)
     s = hsv[..., 1][mask].astype(np.float32)
     v = hsv[..., 2][mask].astype(np.float32)
     if v.size == 0:
-        return "unknown", "unknown"
+        return "unknown", "unknown", 0.0
 
     # White: bright, low saturation. Black: dark.
     white_frac = float(np.mean((s < 60) & (v > 150)))
     black_frac = float(np.mean(v < 60))
+    s_mean = float(np.mean(s))
 
-    if white_frac > 0.55:
-        return "cue", "white"
+    # Cue: the disk must be *dominantly* white-and-bright AND low-saturation
+    # overall. The saturation gate rejects glossy stripes/solids whose white
+    # band alone could clear the white-fraction bar.
+    if white_frac > 0.62 and s_mean < 90:
+        return "cue", "white", white_frac
     if black_frac > 0.5:
-        return "eight", "black"
+        return "eight", "black", white_frac
 
     # Colored ball: name it from the median hue of saturated pixels, excluding
     # the felt-blue band so cloth leaking into the patch doesn't dominate.
@@ -100,7 +109,7 @@ def _classify_patch(patch: np.ndarray) -> tuple[str, str]:
 
     # Stripe vs solid: stripes carry a substantial white band alongside color.
     kind = "stripe" if white_frac > 0.18 else "solid"
-    return kind, color
+    return kind, color, white_frac
 
 
 def detect_balls(
@@ -166,12 +175,12 @@ def detect_balls(
         if core.shape == felt_bin.shape and float(np.mean(felt_bin[core])) > 0.5:
             continue
 
-        kind, color = _classify_patch(patch)
+        kind, color, whiteness = _classify_patch(patch)
         balls.append(
             Ball(
                 x=float(cx), y=float(cy), r=float(r),
                 x_cm=cx / px_per_cm, y_cm=cy / px_per_cm,
-                kind=kind, color=color,
+                kind=kind, color=color, whiteness=whiteness,
             )
         )
 

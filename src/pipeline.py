@@ -39,11 +39,20 @@ class ShotCallerResult:
 
 
 def _pick_cue(balls: list[Ball]) -> Ball | None:
-    """Choose the cue ball; if several are flagged, this still returns one."""
+    """Choose the single most cue-like ball.
+
+    Prefer balls explicitly classified as cue; among those (or, as a fallback,
+    among all balls) pick the whitest, so a noisy classifier that flags more
+    than one ball still yields the correct (whitest) cue.
+    """
+    if not balls:
+        return None
     cues = [b for b in balls if b.is_cue]
     if cues:
-        return cues[0]
-    return None
+        return max(cues, key=lambda b: b.whiteness)
+    # Fallback: the whitest ball overall, but only if it is plausibly white.
+    whitest = max(balls, key=lambda b: b.whiteness)
+    return whitest if whitest.whiteness > 0.35 else None
 
 
 def _nearest_object(cue: Ball, balls: list[Ball]) -> Ball | None:
