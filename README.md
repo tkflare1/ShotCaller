@@ -21,7 +21,8 @@ final_project/
 │   ├── ball_detection.py    # Stage 2: Hough circles + classification
 │   ├── trajectory.py        # Stage 3: rail bounces + collision (90-deg rule)
 │   ├── pipeline.py          # End-to-end: image -> overlays
-│   └── demo.py              # Batch runner over dataset images
+│   ├── demo.py              # Batch runner over dataset images
+│   └── video_demo.py        # Real-time runner: video / webcam / frame sequence
 ├── train.py          # COCO dataset loader / stats utility
 ├── data/             # Datasets and footage (see Data below)
 ├── notebooks/        # Experimentation and visualization
@@ -40,8 +41,29 @@ python src/pipeline.py "data/Billiard Pool.v5i.coco/train/<image>.jpg" --out res
 python src/pipeline.py <image> --aim 25 --bounces 6
 
 # Batch demo over several dataset images
-python src/demo.py --n 6 --split train
+python src/demo.py --n 8 --split test
 ```
+
+### Real-time
+
+The per-frame pipeline runs at roughly **30-50 fps** on 800x800 frames (CPU),
+i.e. real-time. `video_demo.py` runs it on a live source and stamps the live FPS
+on each frame:
+
+```bash
+# a real video clip (writes an annotated copy)
+python src/video_demo.py --video clip.mp4 --out results/live.mp4
+
+# a webcam
+python src/video_demo.py --webcam 0
+
+# assemble a sequence from the dataset's sequential frames (no extra files)
+python src/video_demo.py --frames Recording-2025-02-08-105750 --split test \
+    --out results/live_frames.mp4
+```
+
+Each frame is detected independently (no temporal tracking), so labels may
+flicker; this is real-time *processing*, not frame-to-frame *tracking*.
 
 ## Setup
 

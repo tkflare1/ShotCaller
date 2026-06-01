@@ -154,6 +154,20 @@ approach direction is estimated from monocular cue tracks, contact frames are
 inferred, and any side/follow/draw spin (which bends real trajectories) is
 outside the geometric model.
 
+## Runtime (real-time)
+
+- The full per-frame pipeline (table detection → ball detection → trajectory)
+  runs at roughly **30–50 fps** on 800×800 frames on a laptop CPU (measured mean
+  ~20 ms/frame over 20 test images, timing the compute only). This is above the
+  30 fps real-time bar.
+- `src/video_demo.py` runs the pipeline on a live source — a video file
+  (`--video`), a webcam (`--webcam`), or a sequence assembled from the dataset's
+  sequential frames (`--frames <recording-prefix>`) — stamps the live FPS on
+  each frame, and optionally writes an annotated output video.
+- Caveat: detection runs independently per frame (no temporal tracking), so
+  labels can flicker. The system is real-time *processing*, not frame-to-frame
+  *tracking*.
+
 ## Limitations
 
 - The annotations provide ball positions only. Shot trajectories and outcomes are not labeled and require separately filmed footage.
